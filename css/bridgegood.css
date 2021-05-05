@@ -1,0 +1,26 @@
+.role-container {
+  border-bottom: 1px solid #484848;
+  margin-bottom: 50px;
+}
+.bridgegood-ideate img {
+  width: 799px;
+  margin: 0 auto;
+  display: block;
+  vertical-align: middle;
+}
+.bridgegood-ideate p {
+  margin-top: 50px;
+  font-family: Helvetica;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0em;
+
+}
+.bridgegood-ideate {
+  margin-bottom: 40px;
+}
+.bridgegood-overview-image img {
+  width: 648px;
+}

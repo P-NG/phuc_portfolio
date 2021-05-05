@@ -1,0 +1,388 @@
+.re_KLASIC-work {
+  width: 648px;
+}
+
+p {
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.work-nav-container {
+  color: #24FF00;
+  text-decoration: none;
+  margin-top: 60px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid #484848;
+}
+
+.work-nav-box {
+  position: fixed;
+  z-index: 200;
+}
+.work-nav-container p {
+  color: #AAAAAA;
+  text-decoration: none;
+}
+
+.web-work-active p {
+  color: #24FF00;
+  text-decoration: none;
+}
+.mobile-work-active p {
+  color: #24FF00;
+  text-decoration: none;
+}
+.web-work-button p:hover {
+  color: #24FF00;
+  text-decoration: none;
+}
+.mobile-work-button p:hover {
+  color: #24FF00;
+  text-decoration: none;
+}
+#r-web-arrow {
+  transition: opacity 1s ease-out;
+}
+#r-mobile-arrow {
+  transition: opacity 1s ease-out;
+}
+
+.mobile-work-active:hover {
+  cursor: pointer;
+}
+.web-work-active:hover {
+  cursor: pointer;
+}
+
+.web-work-button:hover {
+  cursor: pointer;
+}
+.mobile-work-button:hover {
+  cursor: pointer;
+}
+
+.scroll-container {
+  text-align: center;
+  color: #24FF00;
+}
+
+.scroll-container p {
+  margin-top: 60px;
+  text-align: center;
+  color: #24FF00;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  margin-bottom: 10px;
+}
+
+.overview-container {
+  font-family: "helvetica";
+  color: white;
+  border-bottom: 1px solid #484848;
+  margin-bottom: 40px;
+  margin-top: 100px;
+}
+
+.overview-container h1 {
+  font-family: "helvetica";
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.overview-container p {
+  font-size: 20px;
+  color: #AAAAAA;
+  line-height: 23px;
+  font-family: "helvetica";
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+
+.problems-container {
+  padding-right: 100px;
+  margin-bottom: 30px;
+}
+
+.problems-container h2 {
+  font-family: Helvetica;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.understanding-container h2 {
+  font-family: Helvetica;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.understanding-container p {
+  margin-bottom: 40px;
+}
+
+.process-container {
+  border-bottom: 1px solid #484848;
+  margin-bottom: 40px;
+}
+
+.detail-container {}
+
+.detail-container h2 {
+  font-family: Helvetica;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.detail-container p {
+  color: #AAAAAA;
+}
+
+.process-container {
+  margin-top: 20px;
+}
+
+.process-container img {
+  margin: 0 auto;
+}
+
+.understanding-container {
+  color: #AAAAAA;
+}
+
+.understanding-container h2 {
+  color: white;
+  font-family: Helvetica;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.insight-container {
+  color: #AAAAAA;
+}
+
+.insight-container h2 {
+  color: white;
+  font-family: Helvetica;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.insight-item {
+  margin-bottom: 40px;
+  padding-right: 50px;
+}
+
+.insight-item p {
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.analysis-container {
+  color: #AAAAAA;
+}
+
+.analysis-container img {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.analysis-container p {
+  padding-right: 20%;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.analysis-container h2 {
+  color: white;
+  font-family: Helvetica;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.analysis-header {
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.problem-container {
+  margin-top: 40px;
+  color: #AAAAAA;
+  border-bottom: 1px solid #484848;
+}
+
+.problem-container h2 {
+  color: white;
+  font-family: Helvetica;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.problem-container p {
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-right: 15%;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.ideate-container {
+  margin-top: 50px;
+  color: white;
+}
+
+.ideate-container img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ideate-container h2 {
+  margin-bottom: 30px;
+}
+
+.prototype-container {
+  margin-top: 40px;
+  color: white;
+  border-bottom: 5px solid #484848;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.prototype-container img {
+  margin: 0 auto;
+}
+
+.problem-container h2 {
+  margin-top: 40px;
+  color: white;
+  font-family: Helvetica;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.prototype-container p {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.prototype-container a {
+  color: #24FF00;
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+.mobile-container {
+  border-bottom: 1px solid #484848;
+}
+
+.mobile-container h1 {
+  margin: 40px auto;
+  color: white;
+}
+
+.mobile-container h2 {
+  color: white;
+  font-family: Helvetica;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.mobile-container p {
+  color: #AAAAAA;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  s letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.mobile-prototype-container img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.mobile-prototype-container h2 {
+  color: white;
+  font-family: Helvetica;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 40px;
+}
+
+.mobile-prototype-container p {
+  text-align: center;
+}
