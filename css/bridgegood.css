@@ -2,25 +2,70 @@
   border-bottom: 1px solid #484848;
   margin-bottom: 50px;
 }
+
 .bridgegood-ideate img {
   width: 799px;
   margin: 0 auto;
   display: block;
   vertical-align: middle;
 }
+
 .bridgegood-ideate p {
   margin-top: 50px;
   font-family: Helvetica;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: 23px;
-letter-spacing: 0em;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+}
 
+.bridgegood-ideate-bottom {
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #484848;
+}
+.bridgegood-ideate-bottom p {
+  margin-top: 50px;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.bridgegood-ideate-bottom a {
+  color: #24FF00;
+  text-decoration: none
 }
 .bridgegood-ideate {
   margin-bottom: 40px;
 }
+
 .bridgegood-overview-image img {
   width: 648px;
+}
+
+.resume-container {
+  color: #AAAAAA;
+  margin-top: 40px;
+}
+
+.resume-container-img {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #484848;
+}
+
+.resume-container ol {
+  padding-left: 17px;
+  padding-top: 10px;
+}
+
+.resume-container-img img {
+  display: block;
+  width: 799px;
+  margin: 0 auto;
 }

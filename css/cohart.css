@@ -1,0 +1,115 @@
+.cohart-work img {
+  width: 412px;
+  text-align: center;
+  margin-left: 40px;
+}
+
+.cohart-overview-container {
+  font-family: "helvetica";
+  color: white;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #484848
+}
+
+.sec-info {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #484848;
+}
+
+.cohart-overview-container h2 {
+  color: white;
+}
+
+.cohart-overview-container p {
+  color: #AAAAAA
+}
+
+.cohart-container {
+  font-family: "helvetica";
+  color: white;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #484848;
+}
+
+.cohart-container h2 {
+  margin-top: 30px;
+  color: white;
+}
+
+.cohart-container p {
+  color: #AAAAAA;
+}
+
+.cohart-ideate img {
+  width: 1152px;
+}
+
+.cohart-ideate {
+  margin-bottom: 40px;
+  border-bottom: 1px solid #484848;
+}
+
+.cohart-onboarding-image img {
+  width: 412px;
+}
+
+.primary-info {
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.primary-info p {
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.beta-container p {
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  color: #AAAAAA;
+}
+
+.beta-1 img {
+  width: 1152px;
+  display: block;
+  margin: 0 auto;
+}
+
+.beta-2 img {
+  width: 1152px;
+  display: block;
+  margin: 0 auto;
+}
+
+.cohart-link a {
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+}
