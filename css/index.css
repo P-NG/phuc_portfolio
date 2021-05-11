@@ -57,6 +57,11 @@ h3 {
   display: inline-block;
   width: 20%;
   color: #484848;
+  font-size: 18px;
+}
+
+.about-button p {
+  font-size: 18px;
 }
 
 .about-button:hover {
@@ -206,8 +211,8 @@ h3 {
   font-family: Helvetica;
   font-size: 20px;
   font-style: normal;
-  font-weight: 300;
-  line-height: 23px;
+  font-weight: bold;
+  line-height: 31px;
   letter-spacing: 0em;
   text-align: left;
   margin-bottom: 20px;
@@ -215,14 +220,13 @@ h3 {
 
 .footer-1 {
   font-family: Helvetica;
-  font-size: 50px;
+  font-size: 40px;
   font-style: normal;
-  font-weight: 300;
+  font-weight: bold;
   line-height: 57px;
   letter-spacing: -2px;
   text-align: left;
   color: #484848;
-
 }
 
 .card-container img:hover {
@@ -231,17 +235,77 @@ h3 {
   min-height: 430px;
   background-position: center;
 }
+
 .link-left p {
   text-align: left;
 }
+
 .link-right p {
   text-align: right;
 }
+
 .link-left a {
   text-decoration: none;
   color: #24FF00;
 }
+
 .link-right a {
   text-decoration: none;
   color: #24FF00;
+}
+
+.container {
+  margin-bottom: 100px;
+}
+
+.linkedin-logo {
+  left: 197px;
+  vertical-align: top;
+  position: absolute;
+}
+
+.footer-item {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.footer-item p {
+  font-family: Helvetica;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #484848;
+  margin-top: 5px;
+}
+
+.footer-item a {
+  text-decoration: none;
+  color: #24FF00;
+}
+
+.footer-item a:hover {
+  text-decoration: none;
+}
+.link-left p {
+  text-align: left
+}
+.link-right p {
+  text-align: right
+}
+.link-right img {
+  width: 8px;
+  margin: 0px;
+  margin-bottom: 4px;
+}
+
+.link-left img {
+  width: 8px;
+  margin: 0px;
+  margin-bottom: 4px;
+}
+.reklasic-footer {
+  margin-bottom: 35px;
 }

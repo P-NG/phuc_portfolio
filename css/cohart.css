@@ -19,6 +19,13 @@
 }
 
 .cohart-overview-container h2 {
+  font-family: Helvetica;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
   color: white;
 }
 
@@ -112,4 +119,8 @@
   font-weight: 700;
   line-height: 23px;
   letter-spacing: 0em;
+}
+
+.onboarding-image {
+  border-bottom: 5px solid #484848;
 }
