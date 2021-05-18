@@ -37,6 +37,7 @@ h3 {
 
 .category-section {
   margin: auto;
+  padding-left: 40px
 }
 
 .category-active a {
@@ -209,10 +210,10 @@ h3 {
 
 .footer-2 p {
   font-family: Helvetica;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
-  font-weight: bold;
-  line-height: 31px;
+  font-weight: lighter;
+  line-height: 23px;
   letter-spacing: 0em;
   text-align: left;
   margin-bottom: 20px;
@@ -222,7 +223,7 @@ h3 {
   font-family: Helvetica;
   font-size: 40px;
   font-style: normal;
-  font-weight: bold;
+  font-weight: lighter;
   line-height: 57px;
   letter-spacing: -2px;
   text-align: left;
