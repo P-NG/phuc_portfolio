@@ -315,3 +315,8 @@ h3 {
 .reklasic-footer {
   margin-bottom: 35px;
 }
+.company-url h1 a {
+  color: white;
+
+  text-decoration: none;
+}
