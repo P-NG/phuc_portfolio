@@ -125,7 +125,7 @@ h3 {
 
 .navItems {
   color: #484848;
-  position: fixed;
+  position: absolute;
   z-index: 200;
   font-size: 18px;
   font-weight: 600;

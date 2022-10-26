@@ -21,7 +21,7 @@ p {
 }
 
 .work-nav-box {
-  position: fixed;
+  position: absolute;
   z-index: 200;
 }
 .work-nav-container p {
