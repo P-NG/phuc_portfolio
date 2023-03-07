@@ -320,3 +320,7 @@ h3 {
 
   text-decoration: none;
 }
+.inactiveLink {
+  pointer-events: none;
+  cursor: default;
+}
