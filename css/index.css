@@ -50,13 +50,13 @@ h3 {
 
 .about-container {
   text-align: right;
-  margin: auto;
+  margin-top: 30px;
+
   color: #484848;
 }
 
 .about-button {
   display: inline-block;
-  width: 20%;
   color: #484848;
   font-size: 18px;
 }
@@ -78,7 +78,7 @@ h3 {
 
 .card {
   background-color: transparent;
-  height: 400px;
+  /* height: 400px; */
   width: 100%;
   padding: 20px;
   border: 0px;
@@ -138,11 +138,10 @@ h3 {
 
 .navItems {
   color: #484848;
-  position: absolute;
   z-index: 200;
   font-size: 18px;
   font-weight: 600;
-  margin-top: 60px;
+  padding-right: 25px;
 }
 
 .navItems a {
@@ -336,4 +335,11 @@ h3 {
 .inactiveLink {
   pointer-events: none;
   cursor: default;
+}
+.col-50 {
+  width: 50%;
+}
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
 }
