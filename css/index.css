@@ -339,6 +339,38 @@ h3 {
 .col-50 {
   width: 50%;
 }
+.img-100 {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+
+}
+.img-80 {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.margin-20 {
+  margin-top:20px;
+}
+.margin-50 {
+  margin-top: 50px;
+}
+.margin-10 {
+  margin-top: 10px;
+}
+.margin-bot-20 {
+  margin-bottom: 20px;
+}
+
+.solution-container {
+  margin-top: auto;
+  margin-bottom: auto;
+}
 @media screen and (min-width: 480px) {
   #leftsidebar {width: 200px; float: left;}
   #main {margin-left: 216px;}
