@@ -36,17 +36,23 @@
 }
 
 .hero p {
-    font-family: 'Inter';
-    font-weight: 400;
+    font-family: Inter;
     font-size: 18px;
-    line-height: 21px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
 }
 
 .hero-header {
-    margin-bottom: 20px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    text-align: left;
+    
 }
 
-.hero-description {
+/* .hero-description {
     color: #959595;
     font-size: 26px;
     font-weight: 400;
@@ -54,8 +60,15 @@
     font-family: 'Inter';
     margin-top: auto;
     margin-bottom: auto;
-}
+} */
+.hero-description p {
+font-family: Inter;
+font-size: 26px;
+font-weight: 400;
+line-height: 40px;
+text-align: left;
 
+}
 .hero {
     border-top: 1px solid #484848;
     padding-top: 80px;
@@ -139,12 +152,12 @@ margin-bottom: 20px;
 }
 .design-process p {
     font-family: Inter;
-font-size: 16px;
-font-weight: 400;
-line-height: 19.36px;
-text-align: center;
-
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
 }
+
 
 .design-process img {
     width: 130px;
