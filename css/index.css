@@ -18,6 +18,9 @@ h3 {
   margin-bottom: 3px;
 }
 
+.logo img {
+  width: 60px;
+}
 .intro-container {
   text-align: right;
 }
