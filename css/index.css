@@ -285,6 +285,10 @@ h3 {
   position: absolute;
 }
 
+.pad-20 {
+  padding-left: 40px;
+  padding-top: 25px;
+}
 .footer-item {
   margin-top: 30px;
   margin-bottom: 20px;
