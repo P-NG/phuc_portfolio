@@ -184,7 +184,14 @@ ul {
     /* * {
         outline: 1px solid red;
     } */
-
+    .checkbook-h1 {
+        font-size: 47px;
+        font-weight: 400;
+        font-family: 'dm sans';
+        line-height: 47px;
+        color: #000000;
+        margin: 0;
+    }
     .hero-container {
         width: 100%;
         min-height: 60vh;

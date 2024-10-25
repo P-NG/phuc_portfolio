@@ -13,6 +13,16 @@ body {
     margin: 0;
 }
 
+.checkbook-h1 {
+    font-size: 65px;
+    font-weight: 400;
+    font-family: 'dm sans';
+    line-height: 60px;
+    color: #000000;
+    margin: 0;
+}
+
+
 .h2 {
     font-size: 22px;
     font-weight: 400;
@@ -299,8 +309,8 @@ work.hero {
 .text-container {
     display: flex;
     width: 100%;
-    flex-direction: column; Stack elements vertically
-
+    flex-direction: column; 
+/* stack elements verticaly ^ */
 }
 
 .text-container ul {
