@@ -1,0 +1,185 @@
+/* project */
+
+ul {
+    list-style-type: none;
+    /* Removes bullet points */
+    padding-left: 0;
+    /* Optionally remove default padding */
+    margin: 0;
+    /* Optionally remove default margin */
+    gap: 8px;
+}
+
+.hero-container {
+    width: 100%;
+    /* or any specific width */
+    height: 720px;
+    /* or any specific height */
+    overflow: hidden;
+    /* Ensures any overflow is hidden */
+    padding-top: 0;
+}
+
+.hero-container img {
+    width: 100%;
+    /* Image will stretch to fit the container's width */
+    height: 100%;
+    /* Image will stretch to fit the container's height */
+    object-fit: cover;
+    /* Scales the image to cover the entire container */
+}
+
+.overview {
+    display: grid;
+    /* Use grid layout */
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-columns: 1fr 1px 1fr;
+    /* Four equal columns */
+    /* gap: 20px; */
+    /* Space between the columns */
+
+    padding: 0px 20px;
+    box-sizing: border-box;
+    /* margin-bottom: 60px; */
+
+    width: 100%;
+    /* Full width of the container */
+    background-color: #fff;
+
+}
+
+.detail-container {
+    grid-column: 1;
+    /* Left side */
+
+    /* grid-row: 1 / span 2;
+    overflow: hidden;
+    grid-column: 1 / span 2; */
+    margin-right: 20px;
+    border: 1px solid #808008;
+    height: fit-content;
+    margin-top: 60px;
+}
+
+.cell {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.inner-cell {
+    padding: 20px;
+    border-bottom: 1px solid #808080;
+}
+
+.year-cell {
+    padding: 20px;
+}
+
+.overview-write {
+    margin-top: 0px;
+    grid-column: 3 ;
+    /* Left side */
+
+    /* grid-column: 3 / span 4; */
+    padding-left: 20px;
+    padding-bottom: 20px;
+    /* border-left: 1px solid #808080; Thicker blue left border */
+}
+
+.vertical-line {
+    grid-column: 2;
+    /* Middle column for the line */
+    background-color: #808080;
+    /* Line color */
+    width: 1px;
+    /* Line thickness */
+    height: 100%;
+    /* Ensure it spans the height of the section */
+}
+
+hero-hr {
+    padding: 0px;
+    height: 1px;
+    background-color: #808080;
+    margin: 12px 20px;
+
+
+}
+
+.content-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+
+    padding: 40px 20px 0 20px;
+    box-sizing: border-box;
+    margin-bottom: 60px;
+
+    width: 100%;
+    background-color: #fff;
+
+}
+
+.content {
+    width: 100%;
+    padding: 0 0 0 20px;
+    grid-column: 1 / 2;
+    /* Ensure the content takes the first column */
+
+}
+
+.img-col {
+    grid-column: 2 / 4;
+}
+
+.img-col-comp {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 2 / 4;
+}
+
+.project-img-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    transition: background-color 0.3s;
+    /* Smooth transition for background color */
+
+}
+
+.project-img-vert {
+    width: 100%;
+    height: 536px;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    transition: background-color 0.3s;
+    /* Smooth transition for background color */
+}
+
+.project-img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+    Maintain aspect ratio
+    /* transition: transition: all 1s ease-in-out; */
+
+}
+
+.hairline-hero {
+    padding: 0px;
+    height: 1px;
+    background-color: #808080;
+    margin: 0px 0px 12px 0px;
+
+}
+
+.hairline-full{
+    padding: 0px;
+    height: 1px;
+    background-color: #808080;
+    margin: 12px 0;
+}

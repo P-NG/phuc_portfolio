@@ -3,19 +3,19 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .h1 {
     font-size: 65px;
     font-weight: 400;
     font-family: 'outfit';
     line-height: 60px;
-    color: #000000
+    color: #000000 margin: 0;
 }
 
 .h2 {
     font-size: 20px;
     font-weight: 400;
     font-family: 'outfit';
-    line-height: auto;
     color: #000
 }
 
@@ -25,7 +25,17 @@ body {
     font-weight: 400;
     font-family: 'dm sans';
     line-height: auto;
-    color: #979797
+    color: #979797;
+    margin-bottom: 4px;
+}
+
+.h4 {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'dm sans';
+    line-height: auto;
+    color: #000
 }
 
 .p {
@@ -33,14 +43,19 @@ body {
     font-weight: 400;
     font-family: 'outfit';
     line-height: 20px;
-    margin: 0;
+    margin-bottom: 4px;
+    margin-top: 0px;
     color: #000
 }
 
 ul {
-    list-style-type: none; /* Removes bullet points */
-    padding-left: 0; /* Optionally remove default padding */
-    margin: 0; /* Optionally remove default margin */
+    list-style-type: none;
+    /* Removes bullet points */
+    padding-left: 0;
+    /* Optionally remove default padding */
+    margin: 0;
+    /* Optionally remove default margin */
+    gap: 8px;
 }
 
 ol {
@@ -49,22 +64,35 @@ ol {
     margin: 0;
 }
 
+.hairline {
+    padding: 0px;
+    height: 1px;
+    background-color: #808080;
+    margin: 12px 20px;
+
+}
 
 .footer-nav {
     display: grid;
+    /* Change to flex for easier padding control */
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-    
+
+    align-items: center;
+
     position: fixed;
     bottom: 0;
-    
+
+    padding: 0 20px;
     width: 100%;
     height: 40px;
-    
+    box-sizing: border-box;
+    /* Apply this globally */
+
     background-color: #ffffff;
-    align-items: center;
     border-top: 1px solid #808080;
 }
+
 
 .top-nav {
     display: grid;
@@ -73,7 +101,7 @@ ol {
 
     position: fixed;
     top: 0;
-    
+
     width: 100%;
     height: 40px;
     padding: 0px 20px;
@@ -82,12 +110,15 @@ ol {
     background-color: #ffffff;
     align-items: center;
     border-bottom: 1px solid #808080;
+    z-index: 1000;
 }
 
 .nav-item {
     font-size: 12px;
     font-family: 'dm sans';
     font-weight: 400;
+    text-decoration: none;
+    color: #000;
 }
 
 .nav-item a {
@@ -96,84 +127,189 @@ ol {
 }
 
 .nav-item:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline;
+    /* Underline on hover */
 }
 
-.work {
-    display: grid;
-    grid-template-columns: 50% 25% 25%; /* Three columns */
-    gap: 20px; /* Space between grid items */
-
-    padding: 20px; /* Set padding around the entire grid */
-    margin-bottom: 40px;
-    box-sizing: border-box; /* Include padding in the width and height */
-
-    width: 100%; /* Full width of the container */
-    background-color: #ff0000; /* Red background for visibility */
+.nav-button {
+    background: none;
+    /* Remove default button styles */
+    border: none;
+    /* Remove border */
+    cursor: pointer;
+    /* Change cursor to pointer */
+    font-size: inherit;
+    /* Inherit font size from parent */
+    text-decoration: none;
+    /* Remove underline from text */
+    color: #000;
+    /* Set the text color */
 }
 
-.work-container {
-    width: 100%;
-    height: 10px;
-    background-color: #f2f2f2;
-    padding: 0;
-    margin: 0;
+.nav-button:hover {
+    text-decoration: underline;
+    /* Underline on hover */
 }
+
 .hero {
-    display: grid; /* Use grid layout */
-    grid-template-columns: repeat(4, 1fr); /* Four equal columns */
-    gap: 20px; /* Space between the columns */
-    
+    display: grid;
+    /* Use grid layout */
+    grid-template-columns: repeat(4, 1fr);
+    /* Four equal columns */
+    gap: 20px;
+    /* Space between the columns */
+
     margin-top: 40px;
     padding: 80px 20px;
     box-sizing: border-box;
 
-    width: 100%; /* Full width of the container */
+    width: 100%;
+    /* Full width of the container */
     background-color: #fff;
 }
 
-.container {
+/* .container {
     width: 100%;
     padding-left: 20px;
     background-color: #ff0000;
-}
+} */
 
 .intro {
-    display: flex; /* Align the image and text horizontally */
-    align-items: center; /* Vertically center the items */
-    background-color: #ff0000; /* Red background */
+    display: flex;
+    /* Align the image and text horizontally */
+    align-items: center;
+    /* Vertically center the items */
 }
+
+work.hero {
+    width: 100%;
+    height: 720px;
+    object-fit: contain;
+
+}
+
 
 .hero-image {
     width: 140px;
     height: 140px;
     background-color: #000000;
     border-radius: 50%;
-    overflow: hidden; /* Ensures content fits within the circle */
-    object-fit: cover; /* Ensures the image is scaled properly */
+    overflow: hidden;
 }
 
-.ascii-art {
-    grid-column: 2; /* Place the ASCII art in the second column */
-    font-family: monospace; /* Use a monospace font for ASCII art */
-    white-space: pre; /* Preserve whitespace */
-    overflow: hidden; /* Hide overflow */
-    max-width: 100%; /* Ensure it doesn't exceed the column width */
-    padding: 0; /* Optional: add some padding for better spacing */
-    box-sizing: border-box; /* Include padding in the total width calculation */
-    top: 0;
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.nav-button {
-    display: flex;
-    font-size: 12px;
-    font-family: 'dm sans';
-    font-weight: 400;
+
+.work {
+    display: grid;
+    /* grid-template-columns: 50% 25% 25%; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: calc(50% - 20px) calc(25% - 10px) calc(25% - 10px);
+
+
+    column-gap: 20px;
+    row-gap: 40px;
     padding-left: 20px;
-    color: #000000;
-    border: none;
+    padding-right: 20px;
+    /* margin-bottom: 80px; */
+    padding-bottom: 60px;
+
+    background-color: #fff;
+
+    align-items: center;
+    overflow: hidden;
+
+    box-sizing: border-box;
+    width: 100%;
+
 }
 
-.nav-button :active {
-    text-decoration: underline;
+.work-container {
+    text-decoration: none;
+    /* Remove default underline */
+    color: inherit;
+    /* Inherit color from parent */
+    display: block;
+    /* Make the entire area clickable */
+    transition: background-color 0.6s;
+    /* Smooth transition for background color */
+}
+
+.work-container:hover .img,
+.work-container:hover .img-phone {
+    transform: scale(1.1);
+    /* Scale image on hover */
+    transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+
+}
+
+.img-container {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 536px;
+    display: flex;
+    /* Enable Flexbox */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    transition: background-color 0.3s;
+    /* Smooth transition for background color */
+
+}
+
+.img {
+    width: 80%;
+    height: 80% object-fit: contain;
+    Maintain aspect ratio
+    /* transition: transition: all 1s ease-in-out; */
+
+}
+
+.img-phone {
+    width: 60%;
+    height: 60% object-fit: contain;
+    Maintain aspect ratio
+    /* transition: transition: all 1s ease-in-out; */
+
+}
+
+.subtext-container {
+    display: flex;
+    gap: 1rem;
+}
+
+/* Individual background colors on hover using nth-of-type */
+.work-container:nth-of-type(1):hover .img-container {
+    background-color: #000510;
+    /* Color for work 1 */
+}
+
+.work-container:nth-of-type(2):hover .img-container {
+    background-color: #99A8FF;
+    /* Color for work 2 */
+}
+
+.work-container:nth-of-type(3):hover .img-container {
+    background-color: #E6FF00;
+    /* Color for work 3 */
+}
+
+.work-container:nth-of-type(4):hover .img-container {
+    background-color: #001489;
+    /* Color for work 4 */
+}
+
+.work-container:nth-of-type(5):hover .img-container {
+    background-color: #FA3B89;
+    /* Color for work 5 */
+}
+
+.work-container:nth-of-type(6):hover .img-container {
+    background-color: #99A8A8;
+    /* Color for work 6 */
 }
