@@ -321,33 +321,51 @@ work.hero {
 
 /* Individual background colors on hover using nth-of-type */
 .work-container:nth-of-type(1):hover .img-container {
-    background-color: #000510;
+    background-color: #00332E;
+
     /* Color for work 1 */
 }
 
 .work-container:nth-of-type(2):hover .img-container {
-    background-color: #99A8FF;
+    background-color: #000510;
+
     /* Color for work 2 */
 }
 
 .work-container:nth-of-type(3):hover .img-container {
-    background-color: #E6FF00;
+    background-color: #99A8FF;
+
     /* Color for work 3 */
 }
 
 .work-container:nth-of-type(4):hover .img-container {
-    background-color: #E599FF;
+    background-color: #00332E;
+    background-color: #E6FF00;
+
+
     /* Color for work 4 */
 }
 
 .work-container:nth-of-type(5):hover .img-container {
-    background-color: #001489;
+    background-color: #E599FF;
+
+
     /* Color for work 5 */
 }
 
 
 .work-container:nth-of-type(6):hover .img-container {
-    background-color: #FA3B89;
+    background-color: #001489;
+    /* Color for work 6 */
+}
+
+.work-container:nth-of-type(7):hover .img-container {
+    background-color: #F8408A;
+    /* Color for work 6 */
+}
+
+.work-container:nth-of-type(8):hover .img-container {
+    background-color: #A5B3B2;
     /* Color for work 6 */
 }
 

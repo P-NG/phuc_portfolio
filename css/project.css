@@ -217,6 +217,17 @@ ul {
     justify-content: center;
 }
 
+.svg-container {
+    display: flex;
+    justify-content: center; /* Horizontally centers */
+    align-items: center;    /* Vertically centers */
+    height: 100vh;   
+    padding-top: 40px;       /* Full viewport height (adjust as needed) */
+}
+.svg-container svg {
+    width: 100%;
+    height: 100%;
+}
 
 /* Mobile Styles */
 @media (max-width: 768px) {
