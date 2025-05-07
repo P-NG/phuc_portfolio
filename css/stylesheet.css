@@ -6,11 +6,13 @@ body {
 
 .h1 {
     font-size: 65px;
-    font-weight: 400;
-    font-family: 'dm sans';
+    font-weight: 700;
+    font-family: "doto", sans-serif;
     line-height: 60px;
     color: #000000;
     margin: 0;
+    font-optical-sizing: auto;
+    font-variation-settings: "ROND" 100; /* Maximum roundness */
 }
 
 .checkbook-h1 {
@@ -181,6 +183,36 @@ ol {
     width: 100%;
     /* Full width of the container */
     background-color: #fff;
+}
+
+.abouthero {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four columns */
+    gap: 20px; /* Space between items */
+    margin-top: 40px;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #fff;
+}
+
+.about-text {
+    grid-column: 1 / 4; /* Spans all four columns */
+}
+
+.about-img {
+    grid-column: 1 / 4; /* Starts a new row and spans all four columns */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid for images */
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.about-img img {
+    width: 100%;
+    height: 300px; /* Fixed height for all images */
+    object-fit: cover; /* Ensures the image fills the area without distortion */
+    grid-column: 1 / 2;
 }
 
 /* .container {
