@@ -47,9 +47,10 @@ body {
 .h4 {
     text-transform: uppercase;
     font-size: 12px;
-    font-weight: 400;
-    font-family: 'dm sans';
+    font-weight: 600;
+    font-family: 'doto';
     line-height: auto;
+    font-variation-settings: "ROND" 100;
     color: #000
 }
 
@@ -256,7 +257,7 @@ work.hero {
     width: 120px;
     height: 120px;
     background-color: #000000;
-    border-radius: 50%;
+    border-radius: 40%;
     /* position: absolute; */
     z-index: 2;
     /* overflow: hidden; */
